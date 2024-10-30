@@ -82,6 +82,10 @@ export default function Component() {
             <Gamepad2 className="h-4 w-4 text-emerald-400 mr-1" />
             <span className="text-emerald-400 font-medium">{spins}</span>
           </div>
+          <div className="flex items-center bg-emerald-950/50 rounded-full px-3 py-1">
+            <Gamepad2 className="h-4 w-4 text-emerald-400 mr-1" />
+            <span className="text-emerald-400 font-medium">hi {userData.first_name}</span>
+          </div>
         </div>
         <Avatar className="h-8 w-8 ring-2 ring-emerald-500">
           <AvatarImage src={userData.photo_url || `https://api.dicebear.com/6.x/fun-emoji/svg?seed=${userData.username || userData.first_name}`} />
