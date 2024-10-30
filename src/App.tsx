@@ -31,7 +31,7 @@ const prizes: Prize[] = [
 
 export default function Component() {
   const [userData, setUserData] = useState<UserData | null>(null)
-  const [balance, setBalance] = useState(50)
+  const [balance] = useState(50)
   const [spins, setSpins] = useState(0)
   const [drawnPrize, setDrawnPrize] = useState<Prize | null>(null)
   const [isSpinning, setIsSpinning] = useState(false)
