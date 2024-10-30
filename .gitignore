@@ -12,9 +12,6 @@ dist
 dist-ssr
 *.local
 
-# Before deploy
-.github
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -25,5 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-*.pem
+credentials/service-account.json
+service-account.json
